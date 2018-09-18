@@ -24,28 +24,27 @@
 
 
 
-# class School 
+# class School
 #   attr_reader :name, :roster
-#   
+#
 #   def initialize(name)
 #     @name = name
 #     @roster = {}
-#   end 
-#   
+#   end
+#
 #   def add_student(student, grade)
 #     roster[grade] ||= []
 #     roster[grade] << student
-#   end 
-#   
+#   end
+#
 #   def grade(grade)
 #     @roster[grade]
-#   end 
-#   
+#   end
+#
 #   def sort
 #     sorted = {}
 #     roster.each { |grade, student| sorted[grade] = student.sort }
 #     sorted
 #   end
 # end
-# 
-
+#
