@@ -36,6 +36,10 @@ class Album
     @release_year = release_year
     @@all << @title
   end
+
+  def self.all
+    @@all
+  end
 end
 black_sunday=Album.new("Black Sunday", "Cypress Hill", 1993)
 temples_of_boom=Album.new("Temples of Boom", "Cypress Hill", 1995)
