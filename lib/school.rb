@@ -34,7 +34,7 @@ class Album
     @title = title
     @author = author
     @release_year = release_year
-    @@all << @title
+    @@all << [@title, @author, @release_year]
   end
 
   def self.all
