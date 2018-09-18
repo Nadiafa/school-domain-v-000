@@ -1,36 +1,3 @@
-class School
-
-
-  def initialize
-    roster = []
-  end
-
-end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # class School
 #   attr_reader :name, :roster
 #
